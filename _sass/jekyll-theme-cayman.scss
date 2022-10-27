@@ -1,4 +1,6 @@
-
+a {
+  text-decoration: none;
+}
 
 body {
   background: rgba(254, 245, 248, 1) ;
@@ -64,7 +66,7 @@ body {
       background: rgba(254, 238, 242, 1) ;
   }
 
-  b{
+  strong{
       font-family: "黑体";
       font-weight: normal;
   }
@@ -73,7 +75,7 @@ body {
       font-family: "楷体";
   }
 
-  i{
+  em{
       font-family: "楷体";
       font-style:  normal;
   }
