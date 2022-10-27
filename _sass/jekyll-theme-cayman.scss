@@ -1,4 +1,4 @@
-.page-header{
+.page-header,#skip-to-content{
   display:none;
 }
 
@@ -50,7 +50,7 @@ body {
   }
 
   p {
-      font-family: "宋体";
+      font-family: consolas,"宋体";
       font-size: 120%;
       line-height: 130%;
       color: rgba(20,20,20,1); 
