@@ -34,7 +34,7 @@ body {
 
 
   h1 {
-      font-family: "楷体";
+      font-family: "楷体",Kaiti SC;
       font-size: 300%;
       text-align: left;
       color: rgba(80,80,80,1); 
@@ -43,24 +43,24 @@ body {
   }
 
   h2 {
-      font-family: "宋体";
+      font-family: "宋体",Songti SC;;
       font-size: 200%;
   }
 
   a {
       color: rgba(150,15,15,1); 
-      font-family: consolas,"宋体";
+      font-family: consolas,"宋体",Songti SC;;
   }
 
   p {
-      font-family: consolas,"宋体";
+      font-family: consolas,"宋体",Songti SC;;
       font-size: 120%;
       line-height: 130%;
       color: rgba(20,20,20,1); 
   }
 
   li {
-    font-family: "宋体";
+    font-family: "宋体",Songti SC;
       font-size: 120%;
       line-height: 130%;
       color: rgba(20,20,20,1); 
@@ -77,22 +77,22 @@ body {
   }
 
   strong{
-      font-family: "黑体";
+      font-family: "黑体",Heiti SC;
       font-weight: normal;
   }
 
   q{
-      font-family: "楷体";
+      font-family: "楷体",Kaiti SC;
   }
 
   em{
-      font-family: "楷体";
+      font-family: "楷体",Kaiti SC;
       font-style:  normal;
   }
 
   blockquote{
     p {
-      font-family: "楷体";
+      font-family: "楷体",Kaiti SC;
       width: 90% ;
       margin : 0 auto;
       font-size: 110%;
