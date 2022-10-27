@@ -1,4 +1,4 @@
-.page-header,#skip-to-content{
+.page-header,#skip-to-content,.site-footer-credits{
   display:none;
 }
 
@@ -47,6 +47,7 @@ body {
 
   a {
       color: rgba(150,15,15,1); 
+      font-family: consolas,"宋体";
   }
 
   p {
