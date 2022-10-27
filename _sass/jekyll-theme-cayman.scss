@@ -1,80 +1,95 @@
 
+
 body {
-
-    background: rgba(254, 245, 248, 1) ;
-
-    width : 60%;
-
-    margin : 0 auto;
-
+  background: rgba(254, 245, 248, 1) ;
+  width : 60%;
+  margin : 0 auto;
 }
 
-h1 {
-    font-family: "楷体";
-    font-size: 300%;
-    text-align: left;
-    color: rgba(80,80,80,1); 
-    font-weight: 500;
-    margin-left: -30px;
+.inner{
+  h1 {
+    color: rgba(120,120,120,1); 
+    text-align: center;
+    font-size:250%;
+  }
+  h2 {
+    color: rgba(160,160,160,1); 
+    text-align: center;
+    font-size:100;
+  }
 }
 
-h2 {
+.main-content{
+
+
+  h1 {
+      font-family: "楷体";
+      font-size: 300%;
+      text-align: left;
+      color: rgba(80,80,80,1); 
+      font-weight: 500;
+      margin-left: -30px;
+  }
+
+  h2 {
+      font-family: "宋体";
+      font-size: 200%;
+  }
+
+  a {
+      color: rgba(150,15,15,1); 
+  }
+
+  p {
+      font-family: "宋体";
+      font-size: 120%;
+      line-height: 130%;
+      color: rgba(20,20,20,1); 
+  }
+
+  li {
     font-family: "宋体";
-    font-size: 200%;
-}
+      font-size: 120%;
+      line-height: 130%;
+      color: rgba(20,20,20,1); 
+      margin-left: 20px;
+  }
 
-a {
-    color: rgba(150,15,15,1); 
-}
+  p::selection{
+      background: rgba(255, 220, 225, 1) ;
+  }
 
-p {
-    font-family: "宋体";
-    font-size: 120%;
-    line-height: 130%;
-    color: rgba(20,20,20,1); 
-}
+  p:hover{
+    transition: 0.3s;
+      background: rgba(254, 238, 242, 1) ;
+  }
 
-li {
-  font-family: "宋体";
-    font-size: 120%;
-    line-height: 130%;
-    color: rgba(20,20,20,1); 
-    margin-left: 20px;
-}
+  b{
+      font-family: "黑体";
+      font-weight: normal;
+  }
 
-p::selection{
-    background: rgba(255, 220, 225, 1) ;
-}
+  q{
+      font-family: "楷体";
+  }
 
-p:hover{
-  transition: 0.3s;
-    background: rgba(254, 238, 242, 1) ;
-}
+  i{
+      font-family: "楷体";
+      font-style:  normal;
+  }
 
-b{
-    font-family: "黑体";
-    font-weight: normal;
-}
+  blockquote{
+      font-family: "楷体";
+    width: 90% ;
+      margin : 0 auto;
+      font-size: 110%;
+  }
 
-q{
-    font-family: "楷体";
-}
+  hr {
+      width: 70%;
+      color: silver;
+      margin-top:60px;
+      margin-bottom:60px;
+  }
 
-i{
-    font-family: "楷体";
-    font-style:  normal;
-}
-
-blockquote{
-    font-family: "楷体";
-  width: 90% ;
-    margin : 0 auto;
-    font-size: 110%;
-}
-
-hr {
-    width: 70%;
-    color: silver;
-    margin-top:60px;
-    margin-bottom:60px;
 }
